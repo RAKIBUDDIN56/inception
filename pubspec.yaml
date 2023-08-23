@@ -1,0 +1,56 @@
+name: inception
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.2
+  dio: ^5.0.0
+  equatable: ^2.0.5
+  bloc: ^8.1.1
+  lottie: ^2.2.0
+  intl: ^0.18.0
+  flutter_countdown_timer: ^4.1.0
+  flutter_html: ^2.2.1
+  stop_watch_timer: ^2.0.0
+  sms_autofill: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+   - assets/
+   - assets/lottie/
+   - assets/images/
+
+
+  fonts:
+    - family: ProximaNova    
+      fonts:
+        - asset: assets/fonts/Proxima-Nova-Bold.ttf
+        - asset: assets/fonts/Proxima-Nova-Light.ttf
+        - asset: assets/fonts/Proxima-Nova-Reg.ttf
+        - asset: assets/fonts/Proxima-Nova-Sbold.ttf
+        - asset: assets/fonts/Proxima-Nova-Thin.ttf
+
+ 
